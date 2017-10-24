@@ -2,6 +2,7 @@
 
 echo "Install Homebrew"
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew tap caskroom/cask
 
 echo "Install and configure Git"
 brew install git
@@ -27,3 +28,18 @@ m finder showextensions YES
 echo "Configure XCode theme"
 mkdir -p ~/Library/Developer/Xcode/UserData/FontAndColorThemes/
 ln -s `pwd`/Dracula.dvtcolortheme ~/Library/Developer/Xcode/UserData/FontAndColorThemes/Dracula.dvtcolortheme
+
+echo "Install KeepingYouAwake"
+brew cask install keepingyouawake
+
+echo "Install SwiftLint"
+brew install swiftlint
+
+echo "Install Synx"
+gem install synx
+
+echo "Install Fastlane"
+brew cask install fastlane
+
+echo "Install Cocoapods"
+sudo gem install cocoapods
