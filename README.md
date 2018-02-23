@@ -41,6 +41,7 @@ For getting an initial configuration run the following command:
 - [Google Chrome](https://www.google.com/chrome/)
 - [iTerm 2](https://www.iterm2.com)
 - [rbenv](https://github.com/rbenv/rbenv)
+- [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL)
 - [Reveal](https://revealapp.com/)
 - [SimPholders](https://simpholders.com/)
 - [Sketch](https://www.sketchapp.com/)
