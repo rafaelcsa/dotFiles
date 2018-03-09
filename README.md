@@ -53,3 +53,4 @@ For getting an initial configuration run the following command:
 - [Spotify](https://www.spotify.com)
 - [Skype](https://www.skype.com)
 - [Xscope](http://xscopeapp.com/)
+- [xopen](https://github.com/paulomendes/xopen.git)
