@@ -19,6 +19,7 @@ For getting an initial configuration run the following command:
 - Disable adjust keyboard brightness in low light (Settings -> Keyboard)
 - Disable "Correct spelling automatically" (Settings -> Keyboard)
 - Disable "Install app updates" and "Install macOS updates" (Settings -> App Store)
+- Configure Finder`s sidebar to not show Recents and to show the user folder (Finder -> Preferences -> Sidebar)
 - Configure Dracula Font in Xcode
 - Configure Afterglow theme in iTerm
 - Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
@@ -40,6 +41,7 @@ For getting an initial configuration run the following command:
 - [Cocoapods](https://github.com/CocoaPods/CocoaPods)
 - [Google Chrome](https://www.google.com/chrome/)
 - [iTerm 2](https://www.iterm2.com)
+- [OpenSim](https://github.com/luosheng/OpenSim)
 - [rbenv](https://github.com/rbenv/rbenv)
 - [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL)
 - [Reveal](https://revealapp.com/)
