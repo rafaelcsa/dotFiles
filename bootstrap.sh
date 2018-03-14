@@ -7,7 +7,8 @@ brew tap caskroom/cask
 echo "Install and configure Git"
 brew install git
 ln -s `pwd`/gitconfig ~/.gitconfig
-ls -s `pwd`/git-completion.sh
+cp git-completion.sh ~/.git-completion.sh
+cp git-prompt.sh ~/.git-prompt.sh
 
 echo "Configure Bash"
 ln -s `pwd`/bash_profile ~/.bash_profile
