@@ -40,6 +40,7 @@ For getting an initial configuration run the following command:
 - [Charles Proxy](https://www.charlesproxy.com)
 - [Clean My Mac 3](https://cleanmymac.com/)
 - [Cocoapods](https://github.com/CocoaPods/CocoaPods)
+- [Cocoapods Deintegrate](https://github.com/CocoaPods/cocoapods-deintegrate)
 - [Google Chrome](https://www.google.com/chrome/)
 - [iTerm 2](https://www.iterm2.com)
 - [OpenSim](https://github.com/luosheng/OpenSim)
