@@ -24,6 +24,7 @@ For getting an initial configuration run the following command:
 - Configure Afterglow theme in iTerm
 - Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
 - Change Screen Shots shortcuts
+- Change Safari's "Quit Safari" shortcut to be cmd+opt+Q (Settings -> Keyboard -> Shortcuts -> App Shortcuts)
 
 # Things to install from AppStore
 - 1Password
