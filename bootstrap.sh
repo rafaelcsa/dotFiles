@@ -16,6 +16,9 @@ ln -s `pwd`/bash_profile ~/.bash_profile
 echo "Install m-cli"
 brew install m-cli
 
+echo "Install rmtrash"
+brew install rmtrash
+
 echo "Avoid iTunes launch when pressing media buttons"
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
