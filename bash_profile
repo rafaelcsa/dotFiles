@@ -7,6 +7,9 @@ alias xcodesucks='killall Xcode; rm -rf ~/Library/Developer/Xcode/DerivedData; r
 alias useXcodeStable="sudo xcode-select -switch /Applications/Xcode.app"
 alias useXcodeBeta="sudo xcode-select -switch /Applications/Xcode-Beta.app"
 
+#prevent 'rm' from being misused
+alias rm="echo Use \'rmtrash\' instead \(via homebrew\), or the full path i.e. \'/bin/rm\'"
+
 #enable the git bash completion commands
 bind "set completion-ignore-case on"
 
@@ -54,5 +57,3 @@ export PATH="~/developer/scripts:$PATH"
 
 export PATH="/usr/local/sbin:$PATH"
 
-# Alias
-alias rm="/usr/local/bin/trash"
