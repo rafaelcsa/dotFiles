@@ -13,6 +13,10 @@ cp git-prompt.sh ~/.git-prompt.sh
 echo "Configure Bash"
 ln -s `pwd`/bash_profile ~/.bash_profile
 
+echo "Configure global gitignore"
+ln -s `pwd`/gitignore_global ~/.gitignore_global
+git config --global core.excludesfile ~/.gitignore_global
+
 echo "Install m-cli"
 brew install m-cli
 
