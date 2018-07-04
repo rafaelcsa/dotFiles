@@ -37,6 +37,8 @@ For getting an initial configuration run the following command:
 - Xcode
 
 # More things to install from internet
+- [Alfred](https://www.alfredapp.com)
+- [Bartender](https://www.macbartender.com)
 - [Bundler](http://bundler.io)
 - [Charles Proxy](https://www.charlesproxy.com)
 - [Clean My Mac 3](https://cleanmymac.com/)
