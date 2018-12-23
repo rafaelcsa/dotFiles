@@ -48,6 +48,7 @@ For getting an initial configuration run the following command:
 - [Google Chrome](https://www.google.com/chrome/)
 - [HIGH SIERRA MEDIA KEY ENABLER](http://milgra.com/high-sierra-media-key-enabler.html)
 - [iTerm 2](https://www.iterm2.com)
+- [Itsycal](https://www.mowglii.com/itsycal/)
 - [OpenSim](https://github.com/luosheng/OpenSim)
 - [rbenv](https://github.com/rbenv/rbenv)
 - [ProvisionQL](https://github.com/ealeksandrov/ProvisionQL)
