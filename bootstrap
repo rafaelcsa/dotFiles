@@ -17,6 +17,9 @@ brew install m-cli
 echo "Install rmtrash"
 brew install rmtrash
 
+echo "Add rmtrash alias"
+echo alias rm="echo Use \'rmtrash\' instead \(via homebrew\), or the full path i.e. \'/bin/rm\'" >> .zshrc
+
 echo "Avoid iTunes launch when pressing media buttons"
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
