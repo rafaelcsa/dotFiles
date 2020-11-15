@@ -1,17 +1,11 @@
-#!/bin/sh
-
 echo "Install Homebrew"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 brew tap homebrew/cask
 
-echo "Install and configure Git"
-brew install git
-ln -s `pwd`/gitconfig ~/.gitconfig
-cp git-completion.sh ~/.git-completion.sh
-cp git-prompt.sh ~/.git-prompt.sh
-
-echo "Configure Bash"
-ln -s `pwd`/bash_profile ~/.bash_profile
+echo "Install oh-my-zsh"
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+chmod 755 /usr/local/share/zsh
+chmod 755 /usr/local/share/zsh/site-functions
 
 echo "Configure global gitignore"
 ln -s `pwd`/gitignore_global ~/.gitignore_global
