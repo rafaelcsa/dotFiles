@@ -20,6 +20,9 @@ brew install rmtrash
 echo "Add rmtrash alias"
 echo alias rm="echo Use \'rmtrash\' instead \(via homebrew\), or the full path i.e. \'/bin/rm\'" >> .zshrc
 
+echo "Make Text Edit open a new document instead of the file picker when it starts"
+defaults write http://com.apple.TextEdit NSShowAppCentricOpenPanelInsteadOfUntitledFile -bool false
+
 echo "Avoid iTunes launch when pressing media buttons"
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist
 
