@@ -25,6 +25,7 @@ For getting an initial configuration run the following command:
 - Activate unlimited scrollback in iTerm (Settings -> Profiles -> Terminal -> Unlimited scrollback)
 - Change Screen Shots shortcuts
 - Change Safari's "Quit Safari" shortcut to be cmd+opt+Q (Settings -> Keyboard -> Shortcuts -> App Shortcuts)
+- If using a keyboard that has the weird paragraph key to the left of the "1" key instead of "tilde/single quotes", remap it: https://www.grzegorowski.com/how-to-remap-single-mac-keyboard-key
 
 # Things to install from AppStore
 - 1Password
